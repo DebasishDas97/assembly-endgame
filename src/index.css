@@ -168,6 +168,11 @@ button.new-game {
   cursor: pointer;
 }
 
+canvas {
+
+  width: 100vw;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

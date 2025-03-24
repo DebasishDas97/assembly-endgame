@@ -5,7 +5,7 @@ import { getFarewellText, getRandomWord } from "./utils"
 import Confetti from "react-confetti"
 
 export default function AssemblyEndgame() {
-    // State values
+    // State values here
     const [currentWord, setCurrentWord] = useState(() => getRandomWord())
     const [guessedLetters, setGuessedLetters] = useState([])
 
